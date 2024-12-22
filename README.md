@@ -9,13 +9,18 @@ This project analyzes cosmetic products, particularly moisturizers for dry skin,
 The dataset contains information on various cosmetic products, including details like ingredients, price, rank, and brand.
 
 ### Features:
-- **Name**: Product name
-- **Brand**: Product's brand
-- **Price**: Product price
-- **Rank**: Product's rank based on user ratings
-- **Label**: Product category (e.g., Moisturizer)
-- **Ingredients**: List of ingredients used in the product
-- **Dry**: Indicates suitability for dry skin (1 for Yes, 0 for No)
+- **Label**: The product category (e.g., Moisturizer, Shampoo).
+- **Brand**: The brand of the product.
+- **Name**: The name of the product.
+- **Price**: The price of the product.
+- **Rank**: User ratings or ranking of the product.
+- **Ingredients**: A list of ingredients used in the product.
+- **Combination**: Indicates if the product is suited for combination skin (1 for Yes, 0 for No).
+- **Dry**: Indicates if the product is suitable for dry skin (1 for Yes, 0 for No).
+- **Normal**: Indicates if the product is suitable for normal skin (1 for Yes, 0 for No).
+- **Oily**: Indicates if the product is suitable for oily skin (1 for Yes, 0 for No).
+- **Sensitive**: Indicates if the product is suitable for sensitive skin (1 for Yes, 0 for No).
+
 
 
 
